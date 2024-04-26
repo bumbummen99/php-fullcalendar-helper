@@ -1,0 +1,15 @@
+{
+    "name": "skyraptor/php-fullcalendar-helper",
+    "description": "Framework agnostic implementations related to FullCalendar to be used in any project.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*"
+    }
+    "autoload": {
+        "psr-4": {
+            "SkyRaptor\\FullCalendarHelper\\" : "src/"
+        }
+    }
+}
